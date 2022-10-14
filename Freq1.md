@@ -1,4 +1,5 @@
-**RMI (Remote Method Invocation)** - uma API que fornece
+# RMI (Remote Method Invocation) 
+uma API que fornece
 um mecanismo para criar aplicatções distribuídas em java.
 O RMI permite que um objeto invoque métodos num objeto que
 está a rodar noutra JVM.
@@ -9,7 +10,7 @@ usando dois objetos stub e skeleton.
 Um objeto remoto é um objeto cujo método pode ser invocado
 de outra JVM.
 
-**Stub**
+## Stub
 O stub é um objeto, atua como um gateway para o lado do cliente.
 Todas as solicitações de saída são roteadas por ele. Ele reside em
 lado do cliente e representa o objeto remoto.
@@ -23,8 +24,8 @@ Ele espera o resultado
 Ele lê (unmarshals) o valor de retorno ou exceção e
 Finalmente, retorna o valor para o chamador.
 
-**Skeleton**
-O esqueleto é um objeto, atua como um gateway para o servidor
+## Skeleton
+É um objeto, atua como um gateway para o servidor
 objeto lateral. Todas as solicitações recebidas são roteadas por ele.
 Quando o esqueleto recebe o pedido de entrada, ele faz o
 seguintes tarefas:
