@@ -67,3 +67,7 @@ seguintes tarefas:
 Ele lê o parâmetro para o método remoto
 Ele invoca o método no objeto remoto real e
 Ele grava e transmite (marshals) o resultado para o chamador.
+
+#Java RMI
+## Garbage Collection
+é o processo pelo qual os programas Java executam o gerenciamento automático de memória. Programas Java compilam para bytecode que pode ser executado em uma Java Virtual Machine, ou JVM para abreviar. Quando os programas Java são executados na JVM, os objetos são criados no heap, que é uma parte da memória dedicada ao programa. Eventualmente, alguns objetos não serão mais necessários. A garbage collection encontra esses objetos não utilizados e os exclui para liberar memória.
