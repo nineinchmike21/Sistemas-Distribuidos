@@ -5,6 +5,10 @@ Os sistemas distribuídos estão se tornando cada vez mais complexos à medida q
 Uma forma de conseguir essa integração é através do uso de middleware. Nos últimos anos, houve um aumento no número de soluções de middleware disponíveis no mercado.
 No entanto, devido a essa variedade de opções disponíveis, tornou-se vital para as empresas identificar primeiro que tipo de solução elas precisam antes de tomar uma decisão de compra.
 
+## Vantagens do Middleware em Sistemas Distribuídos:
+Middleware é uma camada intermediária de software que fica entre o aplicativo e a rede. Ele é usado em sistemas distribuídos para fornecer serviços comuns, como autenticação, autorização, compilação para melhor desempenho em arquiteturas específicas, tradução de entrada/saída e tratamento de erros.
+Middleware oferece uma série de vantagens para sistemas distribuídos. O middleware pode ser modularizado a partir do aplicativo para que tenha melhor potencial de reutilização com outros aplicativos executados em diferentes plataformas.
+Os desenvolvedores de aplicativos podem projetar Middleware para que seja de nível suficientemente alto para se tornar independente de ambientes de hardware específicos ou plataformas de sistema operacional, o que simplifica a portabilidade de aplicativos desenvolvidos em um tipo de plataforma para outra sem reescrever código ou sem recorrer a conjuntos de ferramentas de compatibilidade binária ineficientes e caros, como compiladores cruzados.
 # RMI (Remote Method Invocation) 
 uma API que fornece
 um mecanismo para criar aplicatções distribuídas em java.
