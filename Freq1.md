@@ -18,6 +18,14 @@ Na Comunicação Síncrona, os dados são enviados na forma de blocos ou quadros
 
 Comunicação Assíncrona: Na Transmissão Assíncrona, os dados são enviados em forma de byte ou caractere. Esta transmissão é do tipo half-duplex. Nesta transmissão, os bits de início e os bits de parada são adicionados aos dados. Não requer sincronização.
 
+# External Data Representation:
+
+Data structures are used to represent the information held in running applications. The information consists of a sequence of bytes in messages that are moving between components in a distributed system.  So, conversion is required from the data structure to a sequence of bytes before the transmission of data. On the arrival of the message, data should also be able to be converted back into its original data structure.
+
+Different types of data are handled in computers, and these types are not the same in every position where data must be transmitted. Individual primitive data items can have a variety of data values, and not all computers store primitive values like integers in the same order. Different architectures also represent floating-point numbers differently. Integers are ordered in two ways, big-endian order, in which the Most Significant Byte (MSB) is placed first, and little-endian order, in which the Most Significant Byte (MSB) is placed last or the Least Significant Byte (LSB) is placed first. Furthermore, one more issue is the set of codes used to represent characters. Most applications on UNIX systems use ASCII character coding, which uses one byte per character, whereas the Unicode standard uses two bytes per character and allows for the representation of texts in many different languages.
+
+
+
 # RMI (Remote Method Invocation) 
 
 uma API que fornece
