@@ -1,3 +1,10 @@
+# Middleware
+Pontos chave:
+Os sistemas distribuídos estão se tornando cada vez mais complexos à medida que estão envolvidos em atividades que abrangem um ecossistema de parceiros, fornecedores e clientes.
+
+Uma forma de conseguir essa integração é através do uso de middleware. Nos últimos anos, houve um aumento no número de soluções de middleware disponíveis no mercado.
+No entanto, devido a essa variedade de opções disponíveis, tornou-se vital para as empresas identificar primeiro que tipo de solução elas precisam antes de tomar uma decisão de compra.
+
 # RMI (Remote Method Invocation) 
 uma API que fornece
 um mecanismo para criar aplicatções distribuídas em java.
