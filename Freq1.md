@@ -12,6 +12,12 @@ Middleware oferece uma série de vantagens para sistemas distribuídos. O middle
 
 Os desenvolvedores de aplicativos podem projetar Middleware para que seja de nível suficientemente alto para se tornar independente de ambientes de hardware específicos ou plataformas de sistema operacional, o que simplifica a portabilidade de aplicativos desenvolvidos em um tipo de plataforma para outra sem reescrever código ou sem recorrer a conjuntos de ferramentas de compatibilidade binária ineficientes e caros, como compiladores cruzados.
 
+# Comunicação Sincrona e Assincrona
+
+Na Comunicação Síncrona, os dados são enviados na forma de blocos ou quadros. Esta transmissão é do tipo full-duplex. Entre emissor e receptor, a sincronização é obrigatória. Na transmissão síncrona, não há lacuna entre os dados. É mais eficiente e mais confiável do que a transmissão assíncrona para transferir uma grande quantidade de dados.
+
+Comunicação Assíncrona: Na Transmissão Assíncrona, os dados são enviados em forma de byte ou caractere. Esta transmissão é do tipo half-duplex. Nesta transmissão, os bits de início e os bits de parada são adicionados aos dados. Não requer sincronização.
+
 # RMI (Remote Method Invocation) 
 
 uma API que fornece
