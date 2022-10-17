@@ -24,8 +24,11 @@ As estruturas de dados são usadas para representar as informações mantidas em
 
 Diferentes tipos de dados são tratados em computadores, e esses tipos não são os mesmos em todas as posições em que os dados devem ser transmitidos. Itens de dados primitivos individuais podem ter uma variedade de valores de dados, e nem todos os computadores armazenam valores primitivos como números inteiros na mesma ordem. Diferentes arquiteturas também representam números de ponto flutuante de forma diferente.
 
-# Marshalling : 
-is the process of transferring and formatting a collection of data structures into an external data representation type appropriate for transmission in a message.
+### Marshalling : 
+é o processo de transferência e formatação de uma coleção de estruturas de dados em um tipo de representação de dados externo apropriado para transmissão em uma mensagem.
+
+### Unmarshalling: 
+O inverso desse processo é o unmarshalling, que envolve a reformatação dos dados transferidos na chegada para recriar as estruturas de dados originais no destino.
 
 
 # RMI (Remote Method Invocation) 
