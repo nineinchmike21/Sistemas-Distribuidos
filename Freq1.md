@@ -60,13 +60,11 @@ Finalmente, retorna o valor para o chamador.
 
 ## Skeleton
 É um objeto, atua como um gateway para o servidor
-objeto lateral. Todas as solicitações recebidas são roteadas por ele.
-Quando o esqueleto recebe o pedido de entrada, ele faz o
-seguintes tarefas:
+um por cada classe que representa um objeto remoto, no servidor
+implementa os métodos na interface remota, mas efetuando unmarshall a
+argumentos no pedido, invocando o método no objeto remoto (localmente) e
+devolvendo o marshall do resultado e eventual excepção na reposta ao proxy
 
-Ele lê o parâmetro para o método remoto
-Ele invoca o método no objeto remoto real e
-Ele grava e transmite (marshals) o resultado para o chamador.
 
 #Java RMI
 ## Garbage Collection
