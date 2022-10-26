@@ -1,3 +1,19 @@
+#Sistema Distribuido
+Um sistema distribuído (SD) é aquele em que os seus
+componentes estão distribuídos por uma rede de
+computadores, comunicam e coordenam as suas ações através
+de troca de mensagens, e funciona para o utilizador como se
+de um sistema elementar se tratasse.
+
+Questões a considerar ao desenvolver aplicações e serviços em SD:
+➔ heterogeneidade
+➔ abertura
+➔ segurança
+➔ escalabilidade
+➔ resolução de falhas ou problemas
+➔ concorrência
+➔ transparência
+
 # Middleware
 ## Pontos chave:
 Os sistemas distribuídos estão se tornando cada vez mais complexos à medida que estão envolvidos em atividades que abrangem um ecossistema de parceiros, fornecedores e clientes.
