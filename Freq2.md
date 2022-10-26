@@ -4,5 +4,5 @@ incluem uma API que permite aceder a serviços remotos através da rede
 independentemente da linguagem das aplicações cliente e servidor, os pedidos
 e respostas são usualmente codificados numa Representação Externa de
 Dados (RED) em XML e transmitidos sobre HTTP
-Outra possível RED: JSON
+## Outra possível RED: JSON
 são identificados por um URI (URL ou URN)
