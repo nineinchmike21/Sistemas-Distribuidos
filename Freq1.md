@@ -1,4 +1,4 @@
-#Sistema Distribuido
+# Sistema Distribuido
 Um sistema distribuído (SD) é aquele em que os seus
 componentes estão distribuídos por uma rede de
 computadores, comunicam e coordenam as suas ações através
